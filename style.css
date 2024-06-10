@@ -1,0 +1,108 @@
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: #8A2BE2; /* Cor roxa */
+  }
+  @font-face {
+    font-family: 'Pong' ;
+    src: url('Pong-Game.ttf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+  }
+
+.bg-purple {
+    background-color: #9716D4; /* ou qualquer outra cor roxa desejada */
+}
+
+body{
+ font-family: 'Pong';
+}
+  
+  .navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+  }
+  
+  .navbar-brand i {
+    margin-right: 5px;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .navbar-text {
+    color: white;
+  }
+  
+  .navbar-toggler-icon {
+    color: white;
+  }
+  
+  /* Estilo dos itens de jogo */
+  .container {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo dos itens de jogos */
+  .game-item {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+  }
+  
+  .game-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .game-item h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .game-item .favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    font-size: 20px;
+  }
+  
+  .game-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  @media (max-width: 768px) {
+    .game-item {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .game-item {
+      width: 100%;
+    }
+  }
+  
+  /* Estilo para os itens favoritos e recentemente jogados */
+  .favorites, .recently-played {
+    margin-bottom: 30px;
+  }
+  
+  .favorites h2, .recently-played h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
