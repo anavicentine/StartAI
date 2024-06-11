@@ -1,0 +1,139 @@
+
+@font-face {
+  font-family: 'Pong' ;
+  src: url('Pong-Game.ttf') format('opentype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+body {
+  font-family: 'Pong';
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.game-container {
+  width: 800px;
+  height: 500px;
+  background-color: #FFD700;
+  border: 2px solid #000;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.game-area {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 50px);
+  background: linear-gradient(to bottom, #00BFFF 0%, #00BFFF 50%, #FFD700 50%, #FFD700 100%);
+}
+
+.character {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.blue-character {
+  background-color: #1E90FF;
+  left: 50px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.pink-character {
+  background-color: #FF69B4;
+  right: 50px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.net {
+  width: 5px;
+  height: 58%;
+  background-color: #000;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 2px solid #000;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-50px);
+  }
+}
+
+body {
+  font-family: 'Pong';
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+nav {
+  background-color: #9716D4;
+  padding: 10px 0;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
