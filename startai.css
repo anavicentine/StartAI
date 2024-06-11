@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Pong' ;
+    src: url('Pong-Game.ttf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+  }
+
+body {
+    font-family: 'Pong';
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  nav {
+    background-color: #9716D4;
+    padding: 10px 0;
+  }
+  
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 20px;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
