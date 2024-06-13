@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Pong' ;
-    src: url('Pong-Game.ttf') format('opentype');
-    font-weight: normal;
-    font-size: normal;
-  }
+  font-family: 'Nauman' ;
+  src: url('Nauman-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-size: normal;
+}
 
 body {
-    font-family: 'Pong';
+    font-family: 'Nauman';
     margin: 0;
     background-color: #f0f0f0;
   }

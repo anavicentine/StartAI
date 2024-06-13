@@ -3,8 +3,8 @@
     background-color: #8A2BE2; /* Cor roxa */
   }
   @font-face {
-    font-family: 'Pong' ;
-    src: url('Pong-Game.ttf') format('opentype');
+    font-family: 'Nauman' ;
+    src: url('Nauman-Regular.ttf') format('opentype');
     font-weight: normal;
     font-size: normal;
   }
@@ -14,7 +14,7 @@
 }
 
 body{
- font-family: 'Pong';
+ font-family: 'Nauman';
 }
   
   .navbar-brand {
