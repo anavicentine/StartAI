@@ -15,12 +15,13 @@ body {
 .game-container {
   width: 800px;
   height: 500px;
-  background-color: #FFD700;
+  background-color: #9716D4;
   border: 2px solid #000;
   position: relative;
   overflow: hidden;
   margin-top: 100px;
   margin-left: 400px;
+
 }
 
 .header {
@@ -35,7 +36,7 @@ body {
   position: relative;
   width: 100%;
   height: calc(100% - 50px);
-  background: linear-gradient(to bottom, #00BFFF 0%, #00BFFF 50%, #FFD700 50%, #FFD700 100%);
+  background: linear-gradient(to bottom, #00BFFF 0%, #00BFFF 50%, #9716D4 50%, #9716D4 100%);
 }
 
 .character {
@@ -46,7 +47,7 @@ body {
 }
 
 .blue-character {
-  background-color: #1E90FF;
+  background-color: #FFBF00;
   left: 50px;
   border-radius: 50%;
   border: 2px solid #000;
@@ -91,7 +92,7 @@ body {
 }
 
 body {
-  font-family: 'Pong';
+  font-family: 'Nauman';
   margin: 0;
   background-color: #f0f0f0;
 }
