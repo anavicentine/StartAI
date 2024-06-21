@@ -113,8 +113,8 @@ hr {
   background-color: #333;  /* Cor de fundo da linha */
 }
 
-/*.card img {
-  width: 150px; 
+.card img {
+  width: 350px; 
   height: 150px; 
   object-fit: cover; 
-  align-items: center;
+  align-items: center;}
